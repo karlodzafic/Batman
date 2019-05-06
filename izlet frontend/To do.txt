@@ -2,13 +2,13 @@
 -napraviti i povezati stranicu pomoæ
 -urediti responzivnost (kartice)
 -podijeliti stranicu na dvije sekcije : jednodnevni i višednevni izleti
--napraviti stranicu detalji izleta (dodati formu za napisati recenziju)
+-napraviti stranicu detalji izleta (dodati formu za napisati recenziju) Napraviti stranicu za proèitati recenziju korisnika (komentare sudionika izleta o pojedinom izletu)
 
 2)Napraviti stranicu za profil korisnika
-3)Napraviti stranicu za pregled mojih izgleda (na kojima si bio, na koje si prijavljen, te koje si kreirao)
-4)Stranica sa pregledom svih korisnika (i dodati u boènu navigaciju) *Sonja
+3)Napraviti stranicu za pregled mojih izleta (na kojima si bio, na koje si prijavljen, te koje si kreirao)
+4)Stranica sa pregledom svih korisnika  *Sonja
 5)Napraviti stranicu za proèitati recenziju korisnika (komentare sudionika izleta o pojedinom izletu)
 
 
--Formular za dodaj novi izlet - srediti responzivnost (smanjivanje skupa s stranicom) *Mate
+RIJEŠENO -Formular za dodaj novi izlet - srediti responzivnost (smanjivanje skupa s stranicom) *Mate
 -dodati opciju za višednevne ili jednodnevne izlete
