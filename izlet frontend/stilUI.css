@@ -11,6 +11,10 @@ body {
   background-color:#151515 !important;
   font-family: 'Oswald', sans-serif;
 }
+#novi-izl{
+  color:gray ;
+   text-decoration: none;
+}
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
@@ -93,7 +97,7 @@ body {
 .bg-modal {
   background-color: rgba(0, 0, 0, 0.9);
   width: 100% !important;
-  height: 100% !important;
+  height:100% !important;
   position: absolute;
   top: 0;
   display: none;
@@ -102,10 +106,10 @@ body {
 }
 .modal-sadrzaji {
   height:100vh;
-  width: 350px;
+  width: 450px;
   background-color: rgba(236, 236, 236, 1);
   text-align: center;
-  padding: 0 20 20px;
+  padding: 0 20 5px ;
   position: relative;
   border-radius: 4px;
 }
@@ -138,7 +142,7 @@ body {
     opacity: .5;
 }
 input {
-  margin: 15px auto !important;
+  margin: 10px auto !important;
   display: block !important;
   width: 50% !important
   padding: 2px !important;
@@ -168,11 +172,14 @@ label input{
   width:21% !important;
   
 }
+.radiotip{
+  display: inline-block !important;
+  margin-top:0px;
+  
+}
 textarea{
   display:block;
   margin: 8px auto;
-
-
 
 }
 .carousel-inner img{
