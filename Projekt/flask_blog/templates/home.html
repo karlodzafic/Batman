@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+<!-- ovdje sve nasljedujemo sta nam se nalazi u lazyout
+u blocku imamo samo one stvari koje ce biti specificne za pojedine stranice i override ce napraviti,ovo nam dobro sluzi ako imamo dosta stranice sa dosta slicnih stvari ali se razlikuju u sitnicama onda ne moramo mijenjati svaku stranicu nego samo koja ja potrebna za to i zadrzati stare stvari-->
+{% block content %}
+
+	{%for post in posts%} <!--preko ovoga vadimo podatke preko querya sve sta se nalazi u posts koji smo prenijeli preko funckije u flaskblog dicitionary sve sta ima u posts stavi mi u post i prikazi -->
+		
+		<article class="media content-section">
+		  <div class="media-body">
+		    <div class="article-metadata">
+		      <a class="mr-2" href="#">{{ post.author }}</a>
+		      <small class="text-muted">{{ post.date_posted }}</small>
+		    </div>
+		    <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+		    <p class="article-content">{{ post.content }}</p>
+		  </div>
+		</article>
+	{%endfor%}
+
+{% endblock content %}
