@@ -11,4 +11,5 @@
 
 
 RIJEŠENO -Formular za dodaj novi izlet - srediti responzivnost (smanjivanje skupa s stranicom) *Mate
--dodati opciju za višednevne ili jednodnevne izlete
+
+-dodati opciju za višednevne ili jednodnevne izlete u formular za novi izlet *Mate
