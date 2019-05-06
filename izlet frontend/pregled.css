@@ -86,7 +86,7 @@ body {
   align-items: center;
 }
 .modal-sadrzaji {
-  height: 800px;
+  height:100vh;
   width: 350px;
   background-color: rgba(236, 236, 236, 1);
   text-align: center;
