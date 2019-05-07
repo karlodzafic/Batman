@@ -223,6 +223,11 @@
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });
+    $('#wrapper').click(function(evt){
+       if(evt.target.id == "sidebar-wrapper" || evt.target.id == "menu-toggle" )
+          return false;
+        $("#wrapper").removeClass("toggled");   
+   });
   </script>
 </body>
 <script src="javasaznaj.js" type="text/javascript"></script>
