@@ -1,7 +1,7 @@
 1) saznajvise.html , UImain.html
 -napraviti i povezati stranicu pomoæ
 -urediti responzivnost (kartice)
--podijeliti stranicu na dvije sekcije : jednodnevni i višednevni izleti
+
 
 -napraviti stranicu detalji izleta (dodati formu za napisati recenziju) (napraviti popis prijavljenih korisnika na taj izlet)
 
@@ -24,5 +24,6 @@ ______________________________________
 RIJEŠENO -Formular za dodaj novi izlet - srediti responzivnost (smanjivanje skupa s stranicom) *Mate
 RIJEŠENO -dodati opciju za višednevne ili jednodnevne izlete u formular za novi izlet *Mate
 RIJEŠENO -Stranica sa pregledom svih korisnika (i dodati u bocnu navigaciju) *Sonja
+RIJEŠENO -podijeliti stranicu UImain.html na dvije sekcije : jednodnevni i višednevni izleti
 
 
