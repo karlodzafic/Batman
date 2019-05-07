@@ -76,7 +76,7 @@
               <div class="row ">
                 <div class="col-md-7 px-3">
                   <div class="card-block px-6">
-                    <h4 class="card-title text-center">" insert naziv izleta "  </h4>
+                    <h4 class="card-title text-center">"insert naziv izleta"</h4>
                     <ul style="list-style-type:none;">
                       <li>Tip izleta:</li>
                       <li>Tip izleta:</li>
@@ -92,7 +92,7 @@
                     <br>
                     <a href="#" class="mt-auto btn btn-primary ">Prijavi se!</a>
                     <a href="#" class="mt-auto btn btn-primary ">Podijeli</a>
-                    <a href="#" class="mt-auto btn btn-primary ">Recenziraj</a>
+                    <a href="#" id="recenz" class="mt-auto btn btn-primary ">Recenziraj</a>
                   </div>
                 </div>
                 <!-- Carousel start -->
@@ -194,8 +194,29 @@
           <a href="#" class="submit-botun">Objavi</a>
         </form>
       </div>
-    </div>
   </div>
+</div>
+<div class="bg-modal2">
+  <div class="modal-sadrzaji2">
+        <div class="zatvori2">+</div>
+        <img src="resursi/logo.png" width="60" height="60"  alt="">
+        <form action="">
+          <div class="tekstarea">
+            Vaša recenzija:
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+          </div>
+          <div class="modal-footer">
+             <small class="text-muted">Ocijena izleta:</small>
+             <span class="fa fa-star" id="star1" onclick="add(this,1)"></span>
+             <span class="fa fa-star" id="star2" onclick="add(this,2)"></span>
+             <span class="fa fa-star" id="star3" onclick="add(this,3)"></span>
+             <span class="fa fa-star" id="star4" onclick="add(this,4)"></span>
+             <span class="fa fa-star" id="star5" onclick="add(this,5)"></span>
+          </div>
+          <a href="#" class="submit-botun">Objavi</a>
+        </form>
+    </div>
+</div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

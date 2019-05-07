@@ -35,7 +35,7 @@ body {
   background-color:#151515 !important;
 }
 #novi-izl{
-  color:gray ;
+  color:#495057 ;
    text-decoration: none;
 }
 
@@ -89,14 +89,37 @@ body {
   justify-content: center;
   align-items: center;
 }
+.bg-modal2{
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100% !important;
+  height: 110vh !important;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 .modal-sadrzaji {
-  height:100vh;
+  height:750px;
   width: 450px;
   background-color: rgba(236, 236, 236, 1);
   text-align: center;
   padding: 0 20 20px;
   position: relative;
   border-radius: 4px;
+}
+.modal-sadrzaji2{
+  height:378px;
+  width: 400px;
+  background-color: rgba(236, 236, 236, 1);
+  text-align: center;
+  padding: 0 20 20px;
+  position: relative;
+  border-radius: 4px;
+}
+.modal-sadrzaji2 img{
+  margin-top:15px;
+  margin-bottom: 10px;
 }
 
 .submit-botun{
@@ -113,6 +136,20 @@ body {
   margin-bottom: 20px;
 }
 .zatvori{
+  position: absolute;
+  top: 0;
+  float:right;
+  right: 10px;
+  font-size: 1.5rem;
+  color: #000 ;
+  transform: rotate(45deg);
+  cursor: pointer;
+  font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+.zatvori2{
   position: absolute;
   top: 0;
   float:right;
