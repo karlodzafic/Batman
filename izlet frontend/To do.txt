@@ -3,7 +3,7 @@
 -urediti responzivnost (kartice)
 -podijeliti stranicu na dvije sekcije : jednodnevni i višednevni izleti
 
--napraviti stranicu detalji izleta (dodati formu za napisati recenziju)
+-napraviti stranicu detalji izleta (dodati formu za napisati recenziju) (napraviti popis prijavljenih korisnika na taj izlet)
 
 2)Napraviti stranicu za profil korisnika
 3)Napraviti stranicu za pregled mojih izgleda (na kojima si bio, na koje si prijavljen, te koje si kreirao)
