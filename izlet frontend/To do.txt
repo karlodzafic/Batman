@@ -1,14 +1,9 @@
 1) saznajvise.html , UImain.html
--napraviti i povezati stranicu pomoæ
+-napraviti i povezati stranicu pomoc
 
+-u stranici detalji izleta  napraviti popis prijavljenih korisnika na taj izlet - možda u dropdown listi  
 
--napraviti stranicu detalji izleta (dodati formu za napisati recenziju) (napraviti popis prijavljenih korisnika na taj izlet)
-
--Napraviti stranicu za profil korisnika
--Napraviti stranicu za pregled mojih izgleda (na kojima si bio, na koje si prijavljen, te koje si kreirao)
 -Napraviti prijavljivanje korisnika u vec postojeci izlet
--Napraviti stranicu za proèitati recenziju korisnika (komentare sudionika izleta o pojedinom izletu)
--napraviti stranicu detalji izleta (dodati formu za napisati recenziju) Napraviti stranicu za proèitati recenziju korisnika (komentare sudionika izleta o pojedinom izletu)
 -Napraviti stranicu za pregled mojih izleta (na kojima si bio, na koje si prijavljen, te koje si kreirao)
 -Napraviti stranicu za procitati recenziju korisnika (komentare sudionika izleta o pojedinom izletu)
 
@@ -17,7 +12,8 @@ RIJEŠENO -Formular za dodaj novi izlet - srediti responzivnost (smanjivanje skup
 RIJEŠENO -dodati opciju za višednevne ili jednodnevne izlete u formular za novi izlet *Mate
 RIJEŠENO -Stranica sa pregledom svih korisnika (i dodati u bocnu navigaciju) *Sonja
 RIJEŠENO -podijeliti stranicu UImain.html na dvije sekcije : jednodnevni i višednevni izleti *Sonja
-
+RIJEŠENO -napraviti stranicu detalji izleta (dodati formu za napisati recenziju) *Mate
+RIJEŠENO -Napraviti stranicu za profil korisnika
 
 ________
 Možda kasnije!
