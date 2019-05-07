@@ -73,9 +73,9 @@ body {
   position: fixed; /* Positioning and size */
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(128,128,128,0.98); /* color */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.98); /* color */
   display: none; /* making it hidden by default */
 }
  
@@ -100,7 +100,7 @@ body {
   align-items: center;
 }
 .modal-sadrzaji {
-  height:750px;
+  height:auto;
   width: 450px;
   background-color: rgba(236, 236, 236, 1);
   text-align: center;
@@ -113,7 +113,7 @@ body {
   width: 400px;
   background-color: rgba(236, 236, 236, 1);
   text-align: center;
-  padding: 0 20 20px;
+  padding: 0 20 5px;
   position: relative;
   border-radius: 4px;
 }
@@ -164,7 +164,7 @@ body {
     opacity: .5;
 }
 input {
-  margin: 10px auto !important;
+  margin: 5px auto !important;
   display: block !important;
   width: 50% !important
   padding: 2px !important;
@@ -200,10 +200,7 @@ label input{
 }
 textarea{
   display:block;
-  margin: 8px auto ;
-  width:78% !important;
-
-
+  margin: 5px auto ;
 }
 
 footer{
