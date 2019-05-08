@@ -31,7 +31,7 @@
       <div class="list-group list-group-flush">
         <a href="#" id="novi-izl" class="list-group-item list-group-item bg-light">Novi izlet +</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Pregled svih izleta</a>
-        
+        <a href="#" class="list-group-item list-group-item-action bg-light">Pregled korisnika</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Pomoć</a>
         <input class="form-control list-group-item list-group-item-action bg-light" type="text" placeholder="Pretraži izlet po nazivu" aria-label="Search">
         
@@ -42,7 +42,7 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
 
-      <nav class="navbar navbar-expand-lg navbar-light  border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-dark  border-bottom">
         <button class="btn btn-primary" id="menu-toggle">Izbornik</button>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -206,6 +206,8 @@
           <input type="text" placeholder="Vaše Prezime">
           <input type="text" placeholder="Tel/Mob">
           <hr class="my-4">
+          <input type="radio" class="radiotip" name="tip-izleta" value="jednodnevni"> Jednodnevni izlet
+          <input type="radio" class="radiotip" name="tip-izleta" value="visednevni"> Visednevni izlet
           <input type="text" placeholder="Naziv izleta">
           <input type="text" placeholder="Cijena izleta">
           <input type="text" placeholder="Adresa polaska">
@@ -255,6 +257,14 @@
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });
+
+    $('#wrapper').click(function(evt){
+       if(evt.target.id == "sidebar-wrapper" || evt.target.id == "menu-toggle" )
+          return false;
+        $("#wrapper").removeClass("toggled");   
+
+
+   });
   </script>
 
 </body>
