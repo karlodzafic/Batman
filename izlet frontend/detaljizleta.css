@@ -237,7 +237,7 @@ nav{
     margin: 0;
     padding: 1em;
     border: none;
-    border-top: 1px solid rgba(34, 36, 38, .1);
+    
     box-shadow: none;
      
 }
@@ -248,7 +248,7 @@ nav{
 
 
 .card {
-    font-size: 1.em;
+    font-size: 1em;
     overflow: hidden;
     
     border: none;
