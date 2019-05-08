@@ -1,10 +1,7 @@
 1) saznajvise.html , UImain.html
 -napraviti i povezati stranicu pomoc
 
--u stranici detalji izleta  napraviti popis prijavljenih korisnika na taj izlet - možda u dropdown listi  
 
-
--Napraviti stranicu za pregled mojih izleta (na kojima si bio, na koje si prijavljen, te koje si kreirao)
 -Napraviti stranicu za procitati recenziju korisnika (komentare sudionika izleta o pojedinom izletu)
 
 ______________________________________
@@ -14,6 +11,8 @@ RIJEŠENO -Stranica sa pregledom svih korisnika (i dodati u bocnu navigaciju) *So
 RIJEŠENO -podijeliti stranicu UImain.html na dvije sekcije : jednodnevni i višednevni izleti *Sonja
 RIJEŠENO -napraviti stranicu detalji izleta (dodati formu za napisati recenziju) *Mate
 RIJEŠENO -Napraviti stranicu za profil korisnika *Sonja
+RIJEŠENO -Napraviti stranicu za pregled mojih izleta (na kojima si bio, na koje si prijavljen, te koje si kreirao) *Sonja
+RIJEŠENO -Napraviti popis prijavljenih korisnika na taj izlet - možda u dropdown listi *Mate
 
 
 _________
