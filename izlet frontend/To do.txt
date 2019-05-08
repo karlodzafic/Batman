@@ -23,4 +23,5 @@ Ne treba!
 
 ________
 Možda kasnije!
+-na stranicama Pregled_izleta.html i korisnici.html napraviti da se fuuter (u sivoj boji) prikazuje fiksno na dnu stranice
 -urediti responzivnost (kartice) 
