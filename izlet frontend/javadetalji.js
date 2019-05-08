@@ -34,3 +34,7 @@ document.querySelector('.zatvori2').addEventListener("click", function() {
 	document.querySelector('#CarouselTest').style.display = "flex";
 
 });
+
+ $(document).ready(function(){
+      $("#datatables").DataTable();
+    });
