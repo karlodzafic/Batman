@@ -308,7 +308,9 @@ h4{
   margin-top:260px;
  }
 }
-
+.checked {
+    color: orange;
+}
 
 
 @media (max-width: 399px) { 
