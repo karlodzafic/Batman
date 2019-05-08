@@ -3,7 +3,7 @@
 
 -u stranici detalji izleta  napraviti popis prijavljenih korisnika na taj izlet - možda u dropdown listi  
 
--Napraviti prijavljivanje korisnika u vec postojeci izlet
+
 -Napraviti stranicu za pregled mojih izleta (na kojima si bio, na koje si prijavljen, te koje si kreirao)
 -Napraviti stranicu za procitati recenziju korisnika (komentare sudionika izleta o pojedinom izletu)
 
@@ -13,7 +13,13 @@ RIJEŠENO -dodati opciju za višednevne ili jednodnevne izlete u formular za novi 
 RIJEŠENO -Stranica sa pregledom svih korisnika (i dodati u bocnu navigaciju) *Sonja
 RIJEŠENO -podijeliti stranicu UImain.html na dvije sekcije : jednodnevni i višednevni izleti *Sonja
 RIJEŠENO -napraviti stranicu detalji izleta (dodati formu za napisati recenziju) *Mate
-RIJEŠENO -Napraviti stranicu za profil korisnika
+RIJEŠENO -Napraviti stranicu za profil korisnika *Sonja
+
+
+_________
+Ne treba!
+-Napraviti prijavljivanje korisnika u vec postojeci izlet (To rade decki u backendu pritiskom na dugme za prijavu koje se nalazi na stranici detalji izleta)
+
 
 ________
 Možda kasnije!
