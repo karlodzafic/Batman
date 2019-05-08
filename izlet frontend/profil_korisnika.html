@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+<link rel="icon" href="resursi/logo.png">
+  <title>Profil korisnika</title>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag za edit profile ---------->
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag  za edit profile---------->
+
+<script src="profil_korisnika.js"></script> <!-- lokalni .js file-->
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="pregled.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><img src="resursi/logo.png" width="35px" height="35px" alt=""> </div>
+      <div class="list-group list-group-flush">
+        <a href="#" id="novi-izl" class="list-group-item list-group-item bg-light">Novi izlet +</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Pregled svih izleta</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Pregled korisnika</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Pomoć</a>
+        <input class="form-control list-group-item list-group-item-action bg-light" type="text" placeholder="Pretraži izlet po nazivu" aria-label="Search">
+        
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light  border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Izbornik</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" id="poc" href="#">Početna <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
+                Profil
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Pogledaj svoj profil</a>
+                <a class="dropdown-item" href="#">Moji izleti</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Odjavi se</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid padding">
+        <h1 class="mt-4"></h1>
+          <div class="row padding">
+
+            <!-- ispod je edit prifila-->
+            <hr>
+<div class="container bootstrap snippet">
+    <div class="row">
+      <div class="col-sm-10"><h1>Korisnik</h1></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3"><!--left col-->
+              
+
+      <div class="text-center">
+        <img src="resursi/user.png" class="avatar img-circle img-thumbnail" alt="avatar">
+        <h6>Učitajte drugu fotografiju...</h6>
+        <input type="file" class="text-center center-block file-upload">
+      </div></hr><br>
+
+          
+          <ul class="list-group">
+            <li class="list-group-item text-muted text-center">Aktivnosti <i class="fa fa-dashboard fa-1x"></i></li>
+            <li class="list-group-item text-left"><span class="pull-left"><strong>Aktivan od</strong></span> xx.xx.xxxx</li>
+            <li class="list-group-item text-left"><span class="pull-left"><strong>Broj izleta</strong></span> 13</li>
+            <li class="list-group-item text-left"><span class="pull-left"><strong>Broj recenzija</strong></span> 37</li>
+            <li class="list-group-item text-left"><span class="pull-left"><strong>Pratitelja</strong></span> 78</li>
+          </ul> 
+          
+        </div><!--/col-3-->
+      <div class="col-sm-9">
+       
+          <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <hr>
+                  <form class="form" action="##" method="post" id="registrationForm">
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="first_name"><h4>Ime</h4></label>
+                              <input type="text" class="form-control" name="first_name" id="first_name" placeholder="Ime" title="enter your first name if any.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="last_name"><h4>Prezime</h4></label>
+                              <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Prezime" title="enter your last name if any.">
+                          </div>
+                      </div>
+          
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="phone"><h4>Telefon</h4></label>
+                              <input type="text" class="form-control" name="phone" id="phone" placeholder="Broj fiksnog telefona" title="enter your phone number if any.">
+                          </div>
+                      </div>
+          
+                      <div class="form-group">
+                          <div class="col-xs-6">
+                             <label for="mobile"><h4>Mobilel</h4></label>
+                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Broj mobilnog telefona" title="enter your mobile number if any.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="email"><h4>Email</h4></label>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="tvoj@email.com" title="enter your email.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="email"><h4>Tvoja lokacija</h4></label>
+                              <input type="email" class="form-control" id="location" placeholder="Mjesto" title="enter a location">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="password"><h4>Lozinka</h4></label>
+                              <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="password2"><h4>Potvrdi lozinku</h4></label>
+                              <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                           <div class="col-xs-12">
+                                <br>
+                                <button class="mt-auto btn btn-primary" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Spremi promjene</button>
+                                <button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
+                            </div>
+                      </div>
+                </form>
+              
+              <hr>
+              
+             </div><!--/tab-pane-->
+             <div class="tab-pane" id="messages">
+               
+               <h2></h2>
+               
+               <hr>
+                  <form class="form" action="##" method="post" id="registrationForm">
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="first_name"><h4>First name</h4></label>
+                              <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="last_name"><h4>Last name</h4></label>
+                              <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
+                          </div>
+                      </div>
+          
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="phone"><h4>Phone</h4></label>
+                              <input type="text" class="form-control" name="phone" id="phone" placeholder="enter phone" title="enter your phone number if any.">
+                          </div>
+                      </div>
+          
+                      <div class="form-group">
+                          <div class="col-xs-6">
+                             <label for="mobile"><h4>Mobile</h4></label>
+                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="email"><h4>Email</h4></label>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="email"><h4>Location</h4></label>
+                              <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="password"><h4>Password</h4></label>
+                              <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="password2"><h4>Verify</h4></label>
+                              <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                           <div class="col-xs-12">
+                                <br>
+                                <button class="btn btn-lg btn-success" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                                <button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
+                            </div>
+                      </div>
+                </form>
+               
+             </div><!--/tab-pane-->
+             <div class="tab-pane" id="settings">
+                
+                
+                  <hr>
+                  <form class="form" action="##" method="post" id="registrationForm">
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="first_name"><h4>First name</h4></label>
+                              <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="last_name"><h4>Last name</h4></label>
+                              <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
+                          </div>
+                      </div>
+          
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="phone"><h4>Phone</h4></label>
+                              <input type="text" class="form-control" name="phone" id="phone" placeholder="enter phone" title="enter your phone number if any.">
+                          </div>
+                      </div>
+          
+                      <div class="form-group">
+                          <div class="col-xs-6">
+                             <label for="mobile"><h4>Mobile</h4></label>
+                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="email"><h4>Email</h4></label>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="email"><h4>Location</h4></label>
+                              <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="password"><h4>Password</h4></label>
+                              <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="password2"><h4>Verify</h4></label>
+                              <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                           <div class="col-xs-12">
+                                <br>
+                                <button class="btn btn-lg btn-success pull-right" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                                <!--<button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>-->
+                            </div>
+                      </div>
+                </form>
+              </div>
+               
+              </div><!--/tab-pane-->
+          </div><!--/tab-content-->
+
+        </div><!--/col-9-->
+    </div><!--/row-->
+            <!-- kraj izgleda edit profila-->
+          </div>
+      </div>
+            <footer >
+            <div class="container-fluid padding">
+              <div class="row text-center">
+                <div class="col-12">
+                  <h5>&copy; Tripy 2000-2019, Sva prava pridržana.</h5>
+                </div>
+              </div>  
+            </div>
+          </footer> 
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+  <div class="overlay">
+  <div class="bg-modal">
+    <div class="modal-sadrzaji">
+      <div class="zatvori">+</div>
+      <img src="resursi/logo.png" width="60" height="60"  alt="">
+      <form action="">
+        <input type="text" id="ime" placeholder="Vaše Ime">
+        <input type="text" placeholder="Vaše Prezime">
+        <input type="text" placeholder="Tel/Mob">
+        <hr class="my-4">
+        <input type="radio" class="radiotip" name="tip-izleta" value="jednodnevni"> Jednodnevni izlet
+        <input type="radio" class="radiotip" name="tip-izleta" value="visednevni"> Visednevni izlet
+        <input type="text" placeholder="Naziv izleta">
+        <input type="text" placeholder="Cijena izleta">
+        <input type="text" placeholder="Adresa polaska">
+
+        
+        <div class="datumi">
+          <label>Datum polaska
+          <input type="date"  class="form-control select-date"></label>
+          <label>Datum povratka
+          <input type="date"  class="form-control select-date"></label>
+        </div>
+        <div class="vrijeme">
+          Vrijeme polaska:
+          <input type="time" >
+          Povratka:
+          <input type="time" >
+        </div>
+        <div class="putnici-djeca">
+          Broj putnika:
+          <input type="number" >
+          Kid friendly:
+          <select class="form-control">
+          <option>Da</option>
+          <option>Ne</option>  
+          </select>
+
+        </div>
+        
+        <div class="tekstarea">
+          Dodatne napomene:
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <a href="#" class="submit-botun">Objavi</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+<script src="pregled.js" type="text/javascript"></script>
+</html>
