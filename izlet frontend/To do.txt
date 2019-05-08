@@ -1,4 +1,4 @@
-1) saznajvise.html , UImain.html
+
 -napraviti i povezati stranicu pomoc
 
 
