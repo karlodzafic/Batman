@@ -21,6 +21,10 @@ body {
   font-family: 'Oswald', sans-serif;
   background-color:#151515 !important;
 }
+#novi-izl{
+  color:#495057 ;
+   text-decoration: none;
+}
 
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
@@ -190,4 +194,8 @@ nav{
 }
 #navbarDropdown {
     color: white !important;
+}
+
+.list-group-item{
+  text-align: center;
 }
