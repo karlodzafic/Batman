@@ -188,3 +188,6 @@ nav{
 #poc, #rega{
   color:white;
 }
+#navbarDropdown {
+    color: white !important;
+}
