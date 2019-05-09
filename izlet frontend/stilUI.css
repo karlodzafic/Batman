@@ -308,3 +308,14 @@ nav{
   background-color: #6c7a89;
   color:white;
 }
+
+@media (max-width: 759px) { 
+  .col-md-4
+  {
+    float:none;
+    margin:0 auto;
+    width:auto;
+  
+
+  }
+ }
