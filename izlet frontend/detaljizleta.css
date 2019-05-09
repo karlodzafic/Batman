@@ -456,5 +456,13 @@ border-right: 1px solid #f7f7f7 ;
 }
 
 
-
+@media (max-width: 737px) { 
+  
+  .bg-modal{
+    height:auto !important;
+  }
+  .modal-sadrzaji form input{
+    margin:0 auto !important;
+  }
+ }
 

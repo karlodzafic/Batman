@@ -213,3 +213,12 @@ nav{
   background-color: #6c7a89;
   color:white;
 }
+@media (max-width: 737px) { 
+  
+  .bg-modal{
+    height:auto !important;
+  }
+  .modal-sadrzaji form input{
+    margin:0 auto !important;
+  }
+ }

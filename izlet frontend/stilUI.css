@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
    background-color:#dbdbdb !important;
+   
 }
 .sidebar-heading{
   background-color:#151515 !important;
@@ -309,7 +310,7 @@ nav{
   color:white;
 }
 
-@media (max-width: 759px) { 
+@media (max-width: 737px) { 
   .col-md-4
   {
     float:none;
@@ -317,5 +318,11 @@ nav{
     width:auto;
   
 
+  }
+  .bg-modal{
+    height:auto !important;
+  }
+  .modal-sadrzaji form input{
+    margin:0 auto !important;
   }
  }
