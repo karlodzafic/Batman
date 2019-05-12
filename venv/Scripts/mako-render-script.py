@@ -1,4 +1,4 @@
-#!c:\users\owner\documents\backupproject\batman\venv\scripts\python.exe
+#!"e:\bootcamp\kodovi - vjezbe\sa predavanja\batman\venv\scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'Mako==1.0.7','console_scripts','mako-render'
 __requires__ = 'Mako==1.0.7'
 import re

@@ -1,4 +1,4 @@
-#!c:\users\owner\documents\backupproject\batman\venv\scripts\python.exe
+#!"e:\bootcamp\kodovi - vjezbe\sa predavanja\batman\venv\scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'alembic==1.0.6','console_scripts','alembic'
 __requires__ = 'alembic==1.0.6'
 import re
